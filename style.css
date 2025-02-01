@@ -239,14 +239,13 @@ body {
              background-color: #2d374d;
         }
         .oformlynyr93{
-            text-align: center;
+           text-align: center;
             background-color: #c97118;
             border-radius: 35px;
             color: white;
-            width: 100px;
-            
-            justify-content: center;
-            align-items: center;
+            width: 300px; /* Виправлено ширину для кращого вигляду */
+            margin: 20px auto; /* Центрування контейнера */
+            padding: 20px; /* Додано внутрішній відступ */
         }
 
         .images-container {
@@ -269,4 +268,11 @@ body {
               color: white;
               padding: 10px;
               border-radius: 5px;
+              font-size: 18px; /* Збільшено розмір тексту */
          }
+          .images-container a {
+            text-decoration: none; /* Прибирає підкреслення у посилань */
+        }
+        .images-container img:hover {
+            transform: scale(1.1); /* Ефект збільшення при наведенні */
+        }
